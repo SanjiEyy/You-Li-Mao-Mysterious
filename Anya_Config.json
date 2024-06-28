@@ -2,7 +2,7 @@
 	"languages": "en",
 	"mainName": "[ FCA - ANYA ]",
 	"mainColor": "#00FFFF",
-	"autoRestartMinutes": 10000,
+	"autoRestartMinutes": 2400000,
 	"encryptSt": false,
 	"uptime": true
 }
