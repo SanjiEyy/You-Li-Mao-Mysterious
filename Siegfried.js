@@ -401,9 +401,9 @@ var o = moment.tz("Asia/Manila").format("MM/DD/YYYY");
   timezone: "Asia/Manila"
 }); 
       var tet = global.config.ADMINBOT;
-cron.schedule(`0 */30 0 0 * *`, () => {
+cron.schedule(`0 */240000 * * * *`, () => {
   for (let pep of tet)
-  loginApiData.sendMessage("AUTO RESTART EVERY 3000 MINUTES TO AVOID BEING OFF", pep,() => process.exit(1));
+  loginApiData.sendMessage("AUTO RESTART EVERY 240000 MINUTES TO AVOID BEING OFF", pep,() => process.exit(1));
 },{
   scheduled: true,
   timezone: "Asia/Manila"
